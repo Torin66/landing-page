@@ -40,3 +40,20 @@ ul {
     font-size: 18px;
     color:#e5e7eb;
   }
+
+  .description{
+    display: flex;
+    gap: 100px;
+  }
+
+  .website-desc{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image-desc{
+    display: flex;
+    align-items: center;
+  }
