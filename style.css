@@ -32,45 +32,57 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
-  }
+}
 
-  a {
+a {
     /* this removes the line under our links */
     text-decoration: none;
     font-size: 18px;
     color:#e5e7eb;
-  }
+}
 
-  .description{
+.description{
     display: flex;
     gap: 100px;
-  }
+}
 
-  .website-desc{
+.website-desc{
     width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-  .website-maintext{
+.website-maintext{
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
     display: flex;
-  }
+}
 
-  .website-subtext{
+.website-subtext{
     font-size: 18px;
     color:#e5e7eb;
     display: flex;
-  }
+}
 
-  .website-button{
+.website-button{
     display: flex;
-  }
+}
 
-  .image-desc{
+.button{ 
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px 8px 32px;
+}
+
+.button1{
+    color: white;
+    background-color: #3882F6;
+}
+
+.image-desc{
     display: flex;
     align-items: center;
-  }
+}
