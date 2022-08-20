@@ -53,6 +53,23 @@ ul {
     justify-content: center;
   }
 
+  .website-maintext{
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    display: flex;
+  }
+
+  .website-subtext{
+    font-size: 18px;
+    color:#e5e7eb;
+    display: flex;
+  }
+
+  .website-button{
+    display: flex;
+  }
+
   .image-desc{
     display: flex;
     align-items: center;
