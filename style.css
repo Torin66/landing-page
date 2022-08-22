@@ -130,6 +130,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
 }
 
 .imagecard{
@@ -140,5 +141,7 @@ img {
 }
 
 .textcard{
+    font-size: 18px;
+    color:gray; 
     text-align: center;
   }
