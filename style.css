@@ -44,6 +44,7 @@ a {
 .description{
     display: flex;
     gap: 100px;
+    margin: 50px 0px 50px 0px;
 }
 
 .website-desc{
@@ -51,6 +52,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5px;
 }
 
 .website-maintext{
@@ -82,7 +84,18 @@ a {
     background-color: #3882F6;
 }
 
+img {
+    max-width:100%;
+    height:auto;
+}
+
 .image-desc{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.image1{
+    width: 500px;
+    height: 300px;
 }
