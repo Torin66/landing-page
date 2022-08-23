@@ -175,3 +175,46 @@ img {
     display: flex;
     justify-content: flex-end;
  }
+
+.signup{
+    margin: 70px 0px 70px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+ }
+
+.signupcall{
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+    background-color:#3882F6;
+    display: flex;
+    gap: 50px;
+}
+.calltext{
+    display: flex;
+    flex-direction: column;
+}
+
+.calltitle{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+    display: flex;
+}
+
+.callsubtext{
+    font-size: 18px;
+    color:#e5e7eb;
+    display: flex;
+}
+
+.callbutton{
+    display: flex;
+}
+
+.button2{
+    border: 2px solid white;
+    color: white;
+    background-color: #3882F6;  
+}
