@@ -144,4 +144,34 @@ img {
     font-size: 18px;
     color:gray; 
     text-align: center;
-  }
+}
+ .quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .quotecard{
+    margin: 100px 0px 100px 0px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .quotetext{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+ }
+
+ .quoteautor{
+    font-size: 24px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+ }
