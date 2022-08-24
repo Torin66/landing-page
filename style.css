@@ -179,6 +179,7 @@ img {
 .signup{
     margin: 70px 0px 70px 0px;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
@@ -189,6 +190,7 @@ img {
     border-radius: 10px;
     background-color:#3882F6;
     display: flex;
+    align-items: center;
     gap: 50px;
 }
 .calltext{
@@ -211,10 +213,22 @@ img {
 
 .callbutton{
     display: flex;
+    min-width: 120px;
+    min-height: 40px;
 }
 
 .button2{
     border: 2px solid white;
     color: white;
     background-color: #3882F6;  
+}
+
+.footer{
+    padding: 40px 0px 40px 0px;
+    background-color:#1f2937;
+    font-size: 18px;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
