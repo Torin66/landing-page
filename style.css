@@ -121,7 +121,6 @@ img {
 .cards{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 40px;
 }
 
@@ -141,6 +140,7 @@ img {
 }
 
 .textcard{
+    display: flex;
     font-size: 18px;
     color:gray; 
     text-align: center;
